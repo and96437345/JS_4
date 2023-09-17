@@ -67,7 +67,7 @@
 //     return (x1 * x2)
 // }
 
-// alert('Площадь прямоугольника ' + squareRect(a,b))
+// alert(`Площадь прямоугольника ${squareRect(a,b)}`)
 
 
 
@@ -179,7 +179,7 @@
 //     return (h * 3600 + m * 60 + s)
 // }
 
-// alert('Время в секундах ' + inSec(hour,min,sec))
+// alert(`Время в секундах ${inSec(hour,min,sec)}`)
    
 
 
@@ -234,7 +234,7 @@
 //     let date1 = y1*yearSec + m1*monthSec + d1*daySec
 //     let date2 = y2*yearSec + m2*monthSec + d2*daySec
 //     let resultSec = Math.abs(date2 - date1)
-//     alert('Разница в «чч:мм:сс» составляет ' + secTotime(resultSec))
+//     alert(`Разница в «чч:мм:сс» составляет ${secTotime(resultSec)}`)
 // }
 
 // function secTotime(value) {
