@@ -3,18 +3,18 @@
 // если первое меньше, чем второе; 1 – если первое
 // больше, чем второе; и 0 – если числа равны.
 
-let a = prompt("Введите первое число", '')
-let b = prompt("Введите второе число", '')
+// let a = prompt("Введите первое число", '')
+// let b = prompt("Введите второе число", '')
 
-function comparison(x1,x2) {
-    if (x1 < x2) {
-        return (-1)
-    } else if (x1 > x2) {
-        return (1)
-    } else return (0)
-}
+// function comparison(x1,x2) {
+//     if (x1 < x2) {
+//         return (-1)
+//     } else if (x1 > x2) {
+//         return (1)
+//     } else return (0)
+// }
 
-alert(comparison(a,b))
+// alert(comparison(a,b))
 
 
 
@@ -228,12 +228,9 @@ alert(comparison(a,b))
 // let year2 = +prompt('Введите год второй даты', '')
 
 // function diferDate(d1,m1,y1,d2,m2,y2) {
-//     const yearSec = 31536000
-//     const monthSec = 2629746
-//     const daySec = 86400
-//     let date1 = y1*yearSec + m1*monthSec + d1*daySec
-//     let date2 = y2*yearSec + m2*monthSec + d2*daySec
-//     let resultSec = Math.abs(date2 - date1)
+//     let date1 = new Date(y1,(m1-1),d1)
+//     let date2 = new Date(y2,(m2-1),d2)
+//     let resultSec = Math.abs(date2 - date1)/1000
 //     alert(`Разница в «чч:мм:сс» составляет ${secTotime(resultSec)}`)
 // }
 
