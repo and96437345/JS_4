@@ -3,18 +3,18 @@
 // если первое меньше, чем второе; 1 – если первое
 // больше, чем второе; и 0 – если числа равны.
 
-// let a = prompt("Введите первое число", '')
-// let b = prompt("Введите второе число", '')
+let a = prompt("Введите первое число", '')
+let b = prompt("Введите второе число", '')
 
-// function comparison(x1,x2) {
-//     if (x1 < x2) {
-//         return (-1)
-//     } else if (x1 > x2) {
-//         return (1)
-//     } else return (0)
-// }
+function comparison(x1,x2) {
+    if (x1 < x2) {
+        return (-1)
+    } else if (x1 > x2) {
+        return (1)
+    } else return (0)
+}
 
-// alert(comparison(a,b))
+alert(comparison(a,b))
 
 
 
@@ -180,7 +180,7 @@
 // }
 
 // alert(`Время в секундах ${inSec(hour,min,sec)}`)
-   
+
 
 
 // 9. Написать функцию, которая принимает количество секунд,
